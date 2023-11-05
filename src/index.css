@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+  transition: 0.1s;
+  scroll-behavior: smooth;
+}
+
+.hero-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position-x: center;
+  filter: opacity(2px);
+}
