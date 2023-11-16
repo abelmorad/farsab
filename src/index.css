@@ -20,3 +20,15 @@
   background-position-x: center;
   filter: opacity(2px);
 }
+
+.booking-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/images/calling.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position-x: center;
+  filter: opacity(2px);
+}

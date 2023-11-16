@@ -6,7 +6,7 @@ function Services() {
       <h2 className="text-4xl mb-2 font-semibold tracking-wide">
         Our Services
       </h2>
-      <p className="text-gray-500 mb-14">
+      <p className="text-center text-gray-500 mb-14 tablet:max-w-md">
         Our commitment to excellence, expertise, and client satisfaction sets us
         apart in the following key service areas
       </p>

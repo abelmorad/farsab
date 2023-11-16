@@ -7,7 +7,7 @@ function NavDesk() {
         ["4", "About", "#about"],
         ["5", "Contact", "#contact"],
       ].map(([id, title, path]) => (
-        <a className="text-white text-lg font-medium underline-link hover:text-yellow-500 focus:text-yellow-500" href={path} key={id}>
+        <a className="text-slate-950 text-lg font-medium underline-link hover:text-yellow-500 focus:text-yellow-500" href={path} key={id}>
           {title}
         </a>
       ))}
